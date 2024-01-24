@@ -4,8 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  20px;
+    padding:  15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color:antiquewhite;
+    transition: background-color 0.3s ease;
   }
   
   .logo {
@@ -26,11 +28,14 @@
   } 
 
 .category-dropdown {
-    position: relative;
+  position: relative;
+  display: inline-block;
   }
   
   .category-dropdown:hover .subcategories {
     display: block;
+    opacity: 1;
+  visibility: visible;
   }
   
   .subcategories {
@@ -41,13 +46,11 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1;
+    opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   }
   
-  .subcategory {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-  }
   
   .subcategory:last-child {
     border-bottom: none;
