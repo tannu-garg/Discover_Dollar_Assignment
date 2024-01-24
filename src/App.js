@@ -6,6 +6,10 @@ import ProductList from './ProductList';
 import SaleOffer from './SaleOffer';
 import  categoriesData  from './categoriesData';
 import featuredProducts from './featuredProducts';
+import Footer from './Footer';
+import FooterI from './FooterI';
+import SocialMediaLink from './SocialMediaLink';
+
 
 
 const App = () => {
@@ -25,6 +29,9 @@ const App = () => {
       </div>
       <SaleOffer />
       <ProductList products={featuredProducts} />
+      <Footer/>
+      <FooterI/>
+      <SocialMediaLink/>
     </div>
   );
 };

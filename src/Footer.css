@@ -1,0 +1,28 @@
+/* Footer.css */
+.footer {
+    background-color: #cdb7f1;
+    padding: 50px 20px;
+    color:black;
+    text-align: center;
+  }
+  
+  
+ 
+  
+ 
+  
+  .faq h2 {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .faq p {
+    color:black; 
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  
+  
+  
