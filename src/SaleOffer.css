@@ -1,0 +1,20 @@
+/* SaleOffer.css */
+
+.sale-offer {
+    background-color:rgb(203, 238, 226);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sale-offer h2 {
+    color: #ff4500;
+  }
+  
+  .sale-offer button {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

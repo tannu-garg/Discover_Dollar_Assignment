@@ -1,0 +1,85 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+    background-color:antiquewhite;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    cursor: pointer;
+  } 
+
+.category-dropdown {
+    position: relative;
+  }
+  
+  .category-dropdown:hover .subcategories {
+    display: block;
+  }
+  
+  .subcategories {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .subcategory {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .subcategory:last-child {
+    border-bottom: none;
+  }
+  .subcategory {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .nested-subcategories {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .subcategory:hover .nested-subcategories {
+    display: block;
+  }
+  
+  .nested-subcategory {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .nested-subcategory:last-child {
+    border-bottom: none;
+  }
+
